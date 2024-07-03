@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.camera-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.camera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  width: 320px;
+  height: 240px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.result {
+  position: relative;
+}
+
+.photo {
+  display: none;
+  width: 320px;
+  height: 240px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.hasPhoto .photo {
+  display: block;
+}
